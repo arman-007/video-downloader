@@ -1,0 +1,1712 @@
+{
+  "require": [
+    [
+      "ScheduledServerJS",
+      "handle",
+      null,
+      [
+        {
+          "__bbox": {
+            "define": [
+              [
+                "cr:6885",
+                [
+                  "VideoPlayerScrubberPreviewImageOnCanvas.react"
+                ],
+                {
+                  "__rc": [
+                    "VideoPlayerScrubberPreviewImageOnCanvas.react",
+                    null
+                  ]
+                },
+                -1
+              ],
+              [
+                "cr:1724253",
+                [],
+                {
+                  "__rc": [
+                    null,
+                    null
+                  ]
+                },
+                -1
+              ],
+              [
+                "VideoPlayerShakaPerformanceLoggerConfig",
+                [],
+                {
+                  "isSampled": false
+                },
+                1760
+              ],
+              [
+                "VideoPlayerContextSensitiveConfigPayload",
+                [],
+                {
+                  "context_sensitive_values": {
+                    "buffering_overflow_threshold": [
+                      {
+                        "value": 3.0832147598267,
+                        "contexts": [
+                          {
+                            "name": "connection_quality",
+                            "value": "POOR"
+                          }
+                        ]
+                      },
+                      {
+                        "value": 3.0832147598267,
+                        "contexts": [
+                          {
+                            "name": "connection_quality",
+                            "value": "MODERATE"
+                          }
+                        ]
+                      }
+                    ],
+                    "enable_request_pipelining_for_live": [
+                      {
+                        "value": false,
+                        "contexts": [
+                          {
+                            "name": "latency_level",
+                            "value": "low"
+                          }
+                        ]
+                      }
+                    ],
+                    "initial_stream_buffer_size_float": [
+                      {
+                        "value": 10,
+                        "contexts": [
+                          {
+                            "name": "is_ad",
+                            "value": true
+                          }
+                        ]
+                      }
+                    ],
+                    "is_low_latency": [
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "latency_level",
+                            "value": "low"
+                          }
+                        ]
+                      }
+                    ],
+                    "live_stream_buffer_size_float": [
+                      {
+                        "value": 10,
+                        "contexts": [
+                          {
+                            "name": "content_category",
+                            "value": "esports"
+                          }
+                        ]
+                      },
+                      {
+                        "value": 6.5,
+                        "contexts": [
+                          {
+                            "name": "content_category",
+                            "value": "gaming"
+                          }
+                        ]
+                      }
+                    ],
+                    "num_predictive_segments": [
+                      {
+                        "value": 4,
+                        "contexts": [
+                          {
+                            "name": "latency_level",
+                            "value": "low"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_append_byte_target_without_range": [
+                      {
+                        "value": 1,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_bandwidth_ignore_on_stream_write_samples": [
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_bandwidth_use_response_time_adjustment": [
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_buffer_ahead_target": [
+                      {
+                        "value": 10,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "content_category",
+                            "value": "gaming"
+                          }
+                        ]
+                      },
+                      {
+                        "value": 14,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "is_latency_sensitive_broadcast",
+                            "value": true
+                          }
+                        ]
+                      },
+                      {
+                        "value": 24,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_catchup_timeout_after_buffering_sec": [
+                      {
+                        "value": 0.001,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_catchup_timeout_after_play_sec": [
+                      {
+                        "value": 30,
+                        "contexts": [
+                          {
+                            "name": "fbls_tier",
+                            "value": "user"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_ignore_reset_after_seek_if_bufferahead": [
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_in_play_buffer_overflow_target": [
+                      {
+                        "value": 1,
+                        "contexts": [
+                          {
+                            "name": "connection_quality",
+                            "value": "POOR"
+                          }
+                        ]
+                      },
+                      {
+                        "value": 1,
+                        "contexts": [
+                          {
+                            "name": "connection_quality",
+                            "value": "MODERATE"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_latencymanager_stalled_edgelatency_sec": [
+                      {
+                        "value": 2,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "latency_level",
+                            "value": "ultra-low"
+                          }
+                        ]
+                      },
+                      {
+                        "value": 6,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "content_category",
+                            "value": "gaming"
+                          }
+                        ]
+                      },
+                      {
+                        "value": 10,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "is_latency_sensitive_broadcast",
+                            "value": true
+                          }
+                        ]
+                      },
+                      {
+                        "value": 18,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_latencymanager_stalled_edgelatency_sec_on": [
+                      {
+                        "value": false,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "latency_level",
+                            "value": "ultra-low"
+                          }
+                        ]
+                      },
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_live_initial_playback_position": [
+                      {
+                        "value": -14,
+                        "contexts": [
+                          {
+                            "name": "content_category",
+                            "value": "gaming"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_live_rewind_seek_to_live_delta": [
+                      {
+                        "value": 4,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "is_latency_sensitive_broadcast",
+                            "value": true
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_minimum_bytes_to_sample_on_close": [
+                      {
+                        "value": 10000,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_ms_promise_for_null": [
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_ms_promise_for_null_ms": [
+                      {
+                        "value": 1000,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_network_reload_mpd_json": [
+                      {
+                        "value": "[\"504\", \"404\"]",
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_network_retry_intervals_json": [
+                      {
+                        "value": "{\"0\": 1000, \"404\": 2000, \"502\": 1000, \"503\": 1000, \"504\": 1000, \"20\": 1, \"429\": 2000}",
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_overwrite_live_time_range_block_margin": [
+                      {
+                        "value": 5,
+                        "contexts": [
+                          {
+                            "name": "latency_level",
+                            "value": "low"
+                          },
+                          {
+                            "name": "fbls_tier",
+                            "value": "user"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_overwrite_livehead_fall_behind_block_threshold": [
+                      {
+                        "value": 10,
+                        "contexts": [
+                          {
+                            "name": "latency_level",
+                            "value": "low"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_pdash_download_cursor_catchup_threshold_gop_multiplier": [
+                      {
+                        "value": 1,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_pdash_download_cursor_catchup_threshold_sec": [
+                      {
+                        "value": 1,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "latency_level",
+                            "value": "ultra-low"
+                          }
+                        ]
+                      },
+                      {
+                        "value": 2,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "is_latency_sensitive_broadcast",
+                            "value": true
+                          },
+                          {
+                            "name": "latency_level",
+                            "value": "low"
+                          }
+                        ]
+                      },
+                      {
+                        "value": 6,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "is_latency_sensitive_broadcast",
+                            "value": true
+                          }
+                        ]
+                      },
+                      {
+                        "value": 10,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "latency_level",
+                            "value": "low"
+                          }
+                        ]
+                      },
+                      {
+                        "value": 10,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_pdash_download_cursor_catchup_tolerance_sec": [
+                      {
+                        "value": 1,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_pdash_use_pdash_segmentlocator": [
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_per_stream_duration_target": [
+                      {
+                        "value": 0.5,
+                        "contexts": [
+                          {
+                            "name": "connection_quality",
+                            "value": "GOOD"
+                          }
+                        ]
+                      },
+                      {
+                        "value": 0.5,
+                        "contexts": [
+                          {
+                            "name": "connection_quality",
+                            "value": "EXCELLENT"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_playback_speed_latency_slowdown_adjustment_rate": [
+                      {
+                        "value": 0.2,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_playback_speed_latency_speedup_adjustment_rate": [
+                      {
+                        "value": 0.1,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_playback_speed_min_buffer_sec": [
+                      {
+                        "value": 0.5,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "latency_level",
+                            "value": "ultra-low"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_player_emit_mpdparsed_early": [
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "is_live",
+                            "value": true
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_player_emit_mpdready_early": [
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "is_live",
+                            "value": true
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_player_formats_for_low_latency": [
+                      {
+                        "value": "[\"*\"]",
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_playhead_manager_buffered_auto_seek_playhead_slack": [
+                      {
+                        "value": 0.01,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_playhead_manager_buffered_numerical_error": [
+                      {
+                        "value": 0,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_playhead_manager_clamp_initial_playback_position": [
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_pre_start_buffer_ahead_target": [
+                      {
+                        "value": 10,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_reset_catchup_timeout_after_play_sec_on_overwrite": [
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "content_category",
+                            "value": "gaming"
+                          }
+                        ]
+                      },
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "fbls_tier",
+                            "value": "user"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_seek_on_latency_level_change_allowed": [
+                      {
+                        "value": "[[\"low\",\"normal\"],[\"normal\",\"normal\"]]",
+                        "contexts": [
+                          {
+                            "name": "content_category",
+                            "value": "gaming"
+                          },
+                          {
+                            "name": "is_live",
+                            "value": true
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_skip_videobuffer_gaps": [
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_skip_videobuffer_gaps_on_buffer_updated": [
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_stale_mpd_buffer_ahead_target": [
+                      {
+                        "value": 2,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_start_buffer_underflow_target": [
+                      {
+                        "value": 1.1,
+                        "contexts": [
+                          {
+                            "name": "connection_quality",
+                            "value": "POOR"
+                          }
+                        ]
+                      },
+                      {
+                        "value": 1.1,
+                        "contexts": [
+                          {
+                            "name": "connection_quality",
+                            "value": "MODERATE"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_steadystate_minbuffer_buckets": [
+                      {
+                        "value": 4,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "latency_level",
+                            "value": "ultra-low"
+                          }
+                        ]
+                      },
+                      {
+                        "value": 20,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "is_latency_sensitive_broadcast",
+                            "value": true
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_steadystate_minbuffer_sec": [
+                      {
+                        "value": 1,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "latency_level",
+                            "value": "ultra-low"
+                          }
+                        ]
+                      },
+                      {
+                        "value": 1.75,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          },
+                          {
+                            "name": "is_latency_sensitive_broadcast",
+                            "value": true
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_stream_types_eligible_for_partial_playback": [
+                      {
+                        "value": "audio",
+                        "contexts": [
+                          {
+                            "name": "is_live",
+                            "value": true
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_systemic_risk_abr_initial_risk_factor": [
+                      {
+                        "value": 4,
+                        "contexts": [
+                          {
+                            "name": "is_live",
+                            "value": true
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_systemic_risk_abr_low_mos_resolution": [
+                      {
+                        "value": 260,
+                        "contexts": [
+                          {
+                            "name": "is_live",
+                            "value": true
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_time_to_first_byte_ignore_above_threshold_ms": [
+                      {
+                        "value": 200,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ],
+                    "oz_www_use_live_latency_manager": [
+                      {
+                        "value": true,
+                        "contexts": [
+                          {
+                            "name": "streaming_implementation",
+                            "value": "pdash"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "static_values": {
+                    "stream_buffer_size_float": 15,
+                    "initial_stream_buffer_size_float": 7.5,
+                    "min_switch_interval": 5000,
+                    "min_eval_interval": 1000,
+                    "bandwidth_upgrade_target": 0.9,
+                    "live_bandwidth_upgrade_target": 0.63308577239513,
+                    "resolution_constraint_factor": 2,
+                    "resolve_video_time_update_on_fragmented_time_ranges": true,
+                    "live_send_push_headers": true,
+                    "live_initial_stream_buffer_size_float": 3.5,
+                    "enable_video_debug": false,
+                    "reappend_init_segment_after_abort": false,
+                    "current_time_during_ready_state_zero_throws": false,
+                    "www_videos_nudge_timestamp_correction_s": 0,
+                    "www_videos_extended_spl_logging_for_connected_tv": false,
+                    "live_abr_send_push_headers": false,
+                    "shaka_native_promise": true,
+                    "oz_www_skip_videobuffer_gaps": true,
+                    "oz_www_skip_timerange_gaps": true,
+                    "oz_www_skip_videobuffer_gaps_on_buffer_updated": true,
+                    "oz_www_skip_videobuffer_gaps_max_gap_size_sec": 0,
+                    "use_resource_timing_entry_for_bandwidth": true,
+                    "force_lowest_representation_threshold": 0,
+                    "force_lower_representation_step_ratio": 0,
+                    "enable_request_pipelining_for_vod": false,
+                    "enable_streaming_for_vod": true,
+                    "use_continuous_streaming": true,
+                    "streaming_segment_size": 4,
+                    "streaming_bandwidth_update_interval": 180000,
+                    "multi_segment_decay": 0,
+                    "enable_request_pipelining_for_live": true,
+                    "enable_streaming_code_path": true,
+                    "ignore_errors_after_unload": true,
+                    "use_pending_seek_position_for_reference": false,
+                    "start_stream_buffer_size": 1,
+                    "videos_abr_debugger_storage": false,
+                    "fix_shaka_xhr_error_status": true,
+                    "set_current_time_in_resync": true,
+                    "live_stream_buffer_size_float": 3,
+                    "use_dimensions_fallbacks": true,
+                    "aggressive_fast_moving_average_half_life": 1.5779530704021,
+                    "aggressive_slow_moving_average_half_life": 9.2335087917745,
+                    "ignore_left_button_when_pausing": true,
+                    "disable_360_abr": true,
+                    "clear_buffer_on_seek_back": false,
+                    "buffering_overflow_threshold": 0,
+                    "use_buffer_target_only_after_buffering_goal_is_hit": false,
+                    "enable_content_protection": true,
+                    "drop_buffering_detection_from_html5_api": true,
+                    "exclude_tracks_without_smooth_playback": false,
+                    "mpd_parse_frame_and_audio_sampling_rate": false,
+                    "abort_loading_decisioning_logic": true,
+                    "buffer_velocity_time_in_past_to_consider": 0,
+                    "evaluate_abr_on_fetch_end": false,
+                    "ignore_recent_bandwidth_eval_on_fetch_end": false,
+                    "bandwidth_penalty_per_additional_video": 0.1,
+                    "overwrite_video_current_time_property": false,
+                    "low_start_stream_buffer_size": 2.5,
+                    "low_bandwidth_start_stream_buffer_size_threshold": 2000000,
+                    "connection_quality_context_throttle_frequency": 1000,
+                    "allow_seek_logging_in_mixin": false,
+                    "fix_pause_current_time_in_mixin": true,
+                    "better_set_current_time_in_resync": false,
+                    "resync_set_current_time_fudge_factor": 0,
+                    "enable_main_thread_availability_logging": true,
+                    "fix_overwritten_get_video_current_time": false,
+                    "should_use_oz_p2p": false,
+                    "oz_www_enable_lip_sync_abr_select_quality": false,
+                    "oz_www_enable_alternative_audio_tracks": true,
+                    "oz_www_video_cdn_url_refresh": true,
+                    "oz_www_enable_video_track_refactor": false,
+                    "oz_www_enable_abr_logging": false,
+                    "oz_www_fix_oz_p2p_enable_failed": true,
+                    "num_predictive_segments": 0,
+                    "oz_www_generate_mos_segment_buffer_diff": false,
+                    "oz_www_pdash_use_pdash_segmentlocator": false,
+                    "oz_www_pdash_seq_based_approx": false,
+                    "oz_www_pdash_seq_based_approx_use_blockedrange": false,
+                    "oz_www_pdash_download_cursor_catchup_threshold_sec": 0,
+                    "oz_www_pdash_download_cursor_catchup_tolerance_sec": 0,
+                    "oz_www_pdash_download_cursor_catchup_skip_totalbufer": true,
+                    "oz_www_pdash_download_cursor_catchup_threshold_gop_multiplier": 0,
+                    "oz_www_pdash_download_cursor_tolerance_gop_multiplier": 0,
+                    "oz_www_pdash_download_cursor_bufferahead_gop_multiplier": 0,
+                    "oz_www_pdash_download_cursor_between_catchups_seg": 0,
+                    "oz_www_latencymanager_stalempd_edgelatency_sec": 0,
+                    "oz_www_latencymanager_stalempd_edgelatency_sec_on": false,
+                    "oz_www_latencymanager_stalled_edgelatency_sec_on": false,
+                    "oz_www_latencymanager_stalled_edgelatency_sec": 0,
+                    "oz_www_pdash_future_edgelatency_gops": 0,
+                    "oz_www_catchup_timeout_after_play_sec": 0,
+                    "oz_www_catchup_timeout_after_buffering_sec": 0,
+                    "oz_www_reset_catchup_timeout_after_play_sec_on_overwrite": true,
+                    "oz_www_catchup_min_interval_sec": 0,
+                    "oz_www_playback_speed_latency_adjustment_disabled": false,
+                    "oz_www_playback_speed_latency_adjustment_rate": 0,
+                    "oz_www_playback_speed_enabled_delay_sec": 4,
+                    "oz_www_playback_speed_min_buffer_sec": 1,
+                    "oz_www_playback_speed_min_duration_sec": 2,
+                    "oz_www_playback_speed_restore_min_duration_sec": 1,
+                    "oz_www_playback_speed_latency_slowdown_adjustment_rate": 0,
+                    "oz_www_playback_speed_latency_speedup_adjustment_rate": 0,
+                    "oz_www_pdash_download_cursor_use_totalbuffer": true,
+                    "oz_www_pdash_download_cursor_nocatchup_use_currentbuffer": false,
+                    "oz_www_playback_speed_min_sharpness_factor": 3,
+                    "oz_www_pdash_wait_on_mpd_refresh_when_error": true,
+                    "oz_www_pdash_download_cursor_pause_duration_of_gop": false,
+                    "oz_www_pdash_download_cursor_catchup_only_when_advancing": false,
+                    "oz_www_download_cursor_use_node_time": false,
+                    "oz_www_download_cursor_total_buffer_max_sec": 0,
+                    "oz_www_download_cursor_buffer_ahead_time_max_sec": 0,
+                    "oz_www_download_cursor_disable_buffer_ahead_rule_on": true,
+                    "oz_www_download_cursor_disable_buffer_ahead_rule_lr_on": false,
+                    "oz_www_download_cursor_1st_run_set_skipped_segment_on": true,
+                    "oz_www_download_cursor_1st_run_2_fallback": false,
+                    "oz_www_enable_predictive_dash": true,
+                    "oz_www_use_sc_timebased_segments": false,
+                    "oz_www_use_templated_pdash_segments": true,
+                    "oz_www_use_scf_timebased_segments": false,
+                    "oz_www_touch_cb_key": false,
+                    "oz_www_enable_dvl": true,
+                    "oz_www_use_dvl_with_timeout_ms": 0,
+                    "oz_www_dvl_update_interval_ms": 0,
+                    "oz_www_dvl_update_interval_reset_on_err": true,
+                    "oz_www_dvl_initial_segment_ignore_count": 1,
+                    "oz_www_use_inline_manifest_for_live": true,
+                    "oz_www_use_live_latency_manager": false,
+                    "oz_www_player_emit_mpdready_early": false,
+                    "oz_www_clear_on_seek": true,
+                    "oz_www_player_emit_mpdparsed_early": true,
+                    "oz_www_parse_number_templated_uri": true,
+                    "is_low_latency": false,
+                    "fire_seek_events": false,
+                    "shaka_buffer_abr": false,
+                    "evaluate_abr_on_tracks_and_bandwidth_change": true,
+                    "enable_double_ingest": true,
+                    "www_videos_playback_remove_src_attr_on_unload": false,
+                    "www_videos_playback_call_load_on_unload": false,
+                    "has_live_rewind_egress": false,
+                    "has_live_rewind_ui_www": false,
+                    "use_oz_with_fbms_eligible": true,
+                    "create_restore_abort_loading_promise": true,
+                    "oz_www_fix_representation_ended_timing": true,
+                    "oz_www_safely_log_player_seeks": true,
+                    "oz_www_enable_adaptation": true,
+                    "oz_www_fix_quick_starter_overhead": true,
+                    "oz_www_abr_restrict_from_index": 0,
+                    "oz_www_abr_restrict_to_index": 0,
+                    "oz_www_initial_switch_interval": 0,
+                    "oz_www_min_switch_interval": 100,
+                    "oz_www_abr_min_bandwidth_samples": 0,
+                    "oz_www_min_eval_interval": 100,
+                    "oz_www_bandwidth_estimator_half_life": 6,
+                    "oz_www_bandwidth_estimator_variance_penalty_half_life": 0,
+                    "oz_www_bandwidth_estimator_variance_penalty_down_factor": 0,
+                    "oz_www_bandwidth_estimator_variance_penalty_up_factor": 0,
+                    "oz_www_bandwidth_estimator_outlier_exclusion_factor": 50,
+                    "oz_www_bandwidth_estimator_std_dev_penalty_factor": 0,
+                    "oz_www_abr_confidence_threshold": 0.9,
+                    "oz_www_segments_to_stream": 5,
+                    "oz_www_per_stream_duration_target": 0,
+                    "oz_www_segments_to_stream_under_playhead_threshold": 0,
+                    "oz_www_low_segment_stream_playhead_threshold": 0,
+                    "oz_www_appends_per_segment": 6,
+                    "oz_www_append_byte_target_without_range": 100000,
+                    "oz_www_log_appended_secs": false,
+                    "oz_www_lazy_parse_sidx": false,
+                    "oz_www_abr_eval_buffer_threshold": 0,
+                    "oz_www_throttle_playback_rate_on_stall": true,
+                    "oz_www_use_prefetch_cache": true,
+                    "oz_www_force_initial_representation": true,
+                    "oz_www_buffer_ahead_target": 22,
+                    "oz_www_low_buffer_bandwidth_target_threshold": 10,
+                    "oz_www_low_buffer_bandwidth_target_increase_factor": 0,
+                    "oz_www_segments_to_stream_near_bandwidth_boundary": 5,
+                    "oz_www_bandwidth_boundary_standard_deviation_factor": 1,
+                    "oz_www_suppress_playing_event_while_buffering": false,
+                    "oz_www_resolution_constraint_factor": 2,
+                    "oz_www_pre_start_buffer_ahead_target": 16.924449682236,
+                    "oz_www_stale_mpd_buffer_ahead_target": 0,
+                    "oz_www_setup_buffer_target_onload": true,
+                    "oz_www_in_play_buffer_underflow_target": 0.1,
+                    "oz_www_in_play_buffer_overflow_target": 1,
+                    "oz_www_buffer_when_waiting": false,
+                    "oz_www_start_buffer_underflow_target": 0.1,
+                    "oz_www_byte_count_per_sample": 200000,
+                    "oz_www_minimum_bytes_to_sample_on_close": 25000,
+                    "oz_www_manifest_update_frequency_ms": 0,
+                    "oz_www_manifest_initial_update_delay_ms": 0,
+                    "oz_www_exclude_prefetch_bandwidth_samples": true,
+                    "oz_www_connection_quality_context_throttle_frequency": 2000,
+                    "oz_www_paused_stream_segments_count": 2,
+                    "oz_www_minimum_bandwidth_sample_duration": 10,
+                    "oz_www_maximum_bandwidth_sample_bandwidth": 100000000,
+                    "oz_www_max_bandwidth_sample_count": 30,
+                    "oz_www_use_performance_entry_on_stream_close": false,
+                    "oz_www_ignore_time_to_response_start": false,
+                    "oz_www_network_seg_timeout_ms": 0,
+                    "oz_www_bandwidth_response_time_handicap": 0,
+                    "oz_www_bandwidth_ignore_on_stream_write_samples": false,
+                    "oz_www_bandwidth_use_response_time_adjustment": false,
+                    "oz_www_use_scheduler": true,
+                    "oz_www_cdn_experiment_id": "",
+                    "oz_www_disable_audio_scheduler": false,
+                    "oz_www_no_new_loop_body_promise_when_stream_ongoing": true,
+                    "oz_www_fix_seek_performance": false,
+                    "oz_www_ignore_reset_after_seek_if_bufferahead": false,
+                    "oz_www_ignore_reset_after_seek_if_bufferahead_liverewind": true,
+                    "oz_www_enable_network_manager_error": false,
+                    "oz_www_parse_first_segment": false,
+                    "oz_www_enable_abr_for_first_request": false,
+                    "oz_www_update_media_source_duration": true,
+                    "oz_www_ms_promise_for_null": false,
+                    "oz_www_ms_promise_for_null_ms": 0,
+                    "oz_www_sbm_waits_for_update_end": true,
+                    "oz_www_sbm_cancel_operation_synchronous": false,
+                    "oz_www_sbm_recursively_waits_for_update_end": false,
+                    "oz_www_auto_seek_playhead_slack": 0.5,
+                    "oz_www_playhead_manager_buffered_auto_seek_playhead_slack": 0.5,
+                    "oz_www_playhead_manager_buffered_is_near_gap_threshold": 1.5,
+                    "oz_www_playhead_manager_buffered_numerical_error": 0.01,
+                    "oz_www_playhead_manager_handle_timerange_update_on_timeupdate": true,
+                    "oz_www_playhead_manager_buffered_timerange_update_on_timeupdate": true,
+                    "oz_www_playhead_manager_timeupdate_throttle_ms": 1000,
+                    "oz_www_playhead_manager_clamp_initial_playback_position": false,
+                    "oz_www_playhead_manager_buffer_gaps_skip_reverse": true,
+                    "oz_www_media_stream_buffer_gaps_ignore_before_seek": false,
+                    "oz_www_playhead_manager_initial_playback_position_lat_mgr": true,
+                    "oz_www_playheadman_dont_skip_ahead_past_last_fetched": false,
+                    "oz_www_seek_ahead_epsilon": 0.05,
+                    "oz_www_seek_ahead_use_native_current_time": true,
+                    "oz_www_timeline_offset_threshold": 10,
+                    "oz_www_live_rewind_seek_to_live_delta": 8,
+                    "oz_www_update_seekable_range": true,
+                    "oz_www_update_duration_when_init_appended": true,
+                    "oz_www_abr_prevent_down_switch_buffer_threshold": 11,
+                    "oz_www_check_buffer_range_once_for_playhead_update": false,
+                    "oz_www_fix_start_timestamp": true,
+                    "oz_www_fix_templated_manifest_r_field_check": true,
+                    "oz_www_seek_on_latency_level_change": false,
+                    "oz_www_seek_on_latency_level_change_allowed": "[]",
+                    "oz_www_live_initial_playback_position": -20,
+                    "oz_www_live_query_time_in_range": true,
+                    "oz_www_timerange_manager_cleanup": false,
+                    "oz_www_livehead_fall_behind_block_threshold": 30,
+                    "oz_www_overwrite_livehead_fall_behind_block_threshold": 0,
+                    "oz_www_live_time_range_block_margin": 5.9,
+                    "oz_www_overwrite_live_time_range_block_margin": 0,
+                    "oz_www_live_gracefully_handle_mpd_errors": true,
+                    "oz_www_live_no_segment_when_playhead_is_before_first_segment": true,
+                    "oz_www_live_disable_mpd_updates_when_paused": true,
+                    "oz_www_cleanup_video_node_on_destroy": true,
+                    "oz_www_detach_media_source_manager": true,
+                    "oz_www_enable_abortload_and_reload": true,
+                    "oz_www_live_playhead_catch_up": false,
+                    "oz_www_live_catch_up_only_when_paused": false,
+                    "oz_www_live_catch_up_fall_behind_threshold": 20,
+                    "oz_www_live_catch_up_live_head_delta": 6,
+                    "oz_www_live_numerical_error_epsilon": 0.0001,
+                    "oz_www_stop_manifest_update_when_static": true,
+                    "oz_www_buffer_end_only_when_buffering": false,
+                    "oz_www_stream_interrupt_check_mpd_stale_count_threshold": 6,
+                    "oz_www_reach_end_only_when_video_ended": false,
+                    "oz_www_allow_queueing_end_of_stream_when_update": false,
+                    "oz_www_set_source_buffer_append_window_end": false,
+                    "oz_www_use_stream_end_time_in_segment_locator": false,
+                    "oz_www_pausable_stream_throws_error_when_aborted": true,
+                    "oz_www_network_retry_intervals_json": "{\"0\": 1000, \"404\": 2000, \"502\": 1000, \"503\": 1000, \"504\": 1000, \"429\": 2000, \"20\": 1000}",
+                    "oz_www_network_retry_intervals_json_retry": false,
+                    "oz_www_network_reload_mpd_json_retry": false,
+                    "oz_www_network_end_broadcasts_json": "[\"410\"]",
+                    "oz_www_network_skip_json": "[]",
+                    "oz_www_network_reload_mpd_json": "[]",
+                    "oz_www_fallback_on_append_error": false,
+                    "oz_www_enable_appends_on_wait_update_end_failure": false,
+                    "oz_www_bandwidth_penalty_per_additional_video": 0,
+                    "oz_www_bandwidth_penalty_additional_video_start": 0,
+                    "oz_www_prefetch_cache_bandwidth_upper_limit": 0,
+                    "oz_www_throw_network_error_during_stream": false,
+                    "oz_www_retry_fetch_on_prefetch_error": true,
+                    "oz_www_use_abr_for_missing_default_representation": true,
+                    "oz_www_initial_manifest_request_retry_count": 3,
+                    "oz_www_download_time_buffer_delta_penalty_factor": 0,
+                    "oz_www_time_to_first_byte_estimate_half_life_ms": 500,
+                    "oz_www_handle_missing_manifest_segment_timeline": true,
+                    "oz_www_mos_upper_threshold": 0,
+                    "oz_www_mos_lower_threshold": 0,
+                    "oz_www_abr_use_download_time": false,
+                    "oz_www_minimum_download_additional_buffer_ms": 0,
+                    "oz_www_use_deferred_streaming_task": true,
+                    "oz_www_allow_abort_loading_from_autoplay_controller": false,
+                    "oz_www_enable_double_ingest": true,
+                    "oz_www_use_oz_credentials_provider": true,
+                    "oz_www_throw_on_non_zero_r_d_mismatch": true,
+                    "oz_www_fix_template_duration_artifact_in_manifest": true,
+                    "oz_www_bandwidth_cache_key": "bandwidthEstimate",
+                    "oz_www_estimate_video_bandwidth_only": true,
+                    "oz_www_default_bandwidth_estimate": 1000000,
+                    "oz_www_update_bandwidth_cache_on_sample": false,
+                    "oz_www_live_audio_ibr_bandwidth_percentage": 0.05,
+                    "comet_www_no_pause_on_blur_or_focus_events": false,
+                    "oz_www_live_gracefully_handle_no_network": true,
+                    "oz_www_live_max_try_attempts_on_404": 2,
+                    "oz_www_clear_buffer_when_switch_representation_initiator_is_user": true,
+                    "oz_www_use_segment_request_cache": false,
+                    "oz_www_seconds_to_stream": 10,
+                    "oz_www_seconds_to_stream_near_bandwidth_boundary": 10,
+                    "oz_www_queue_data_with_error_handling": false,
+                    "oz_www_clear_prepended_segments_count_on_append": true,
+                    "oz_www_back_off_pdash_504_retry": true,
+                    "oz_www_call_end_of_stream_in_quick_starter": true,
+                    "oz_www_instantiate_buffering_detector_before_quick_starter": true,
+                    "oz_www_maybe_end_stream_if_prepended_segments": true,
+                    "oz_www_seek_to_start_quick_starter": true,
+                    "oz_www_use_loose_manifest_updates": false,
+                    "oz_www_use_full_player_if_cached": true,
+                    "oz_www_enable_quickdashv2": true,
+                    "oz_www_copy_new_manifest": true,
+                    "oz_www_handle_switch_to_unparsed_representation_sidx": true,
+                    "oz_www_stable_buffered_timeranges_in_observedsourcebufferstate": true,
+                    "oz_www_emit_stream_error_event": true,
+                    "oz_www_max_start_eme_attempts": 3,
+                    "oz_www_listen_for_canplay_in_buffering_detector": true,
+                    "oz_www_handle_mpd_retries_outside_oz_mpd_updater": true,
+                    "oz_www_respect_initial_representation_on_setup": false,
+                    "oz_www_update_live_video_config_on_representation_switch": true,
+                    "oz_www_mpd_update_cancel_current_request_tracker": true,
+                    "oz_www_tagged_time_range_per_append_throttle": 0,
+                    "oz_www_fix_reload_manifest_retry": true,
+                    "oz_www_fix_source_buffer_error_logging": true,
+                    "oz_www_min_block_time_range_interval_ms": 0,
+                    "oz_www_fix_buffer_ahead_priority_strategy": true,
+                    "oz_www_append_last_segment_if_beyond_end": true,
+                    "oz_www_set_stream_anchor_only_on_done_status": true,
+                    "oz_www_fix_stream_deferred_cancel": true,
+                    "oz_www_sbm_abort_on_readable_stream_error": true,
+                    "oz_www_cancel_tracker_on_append_error": true,
+                    "oz_www_pixels_below_viewport_to_observe": 0,
+                    "oz_www_prioritize_by_viewport_static_penalty": 0,
+                    "oz_www_fix_setup_video_duration_on_representation_switch": true,
+                    "oz_www_handle_mpd_null_error_codes": true,
+                    "oz_www_fix_prepended_segments_tagging": true,
+                    "oz_www_xmlparser_use_domparser": true,
+                    "oz_www_cache_mos_threshold": false,
+                    "oz_www_load_video_node_on_unload": true,
+                    "oz_www_convert_dom_exception_to_oz_error": true,
+                    "oz_www_sbm_check_source_buffer_ready_state_on_cancel": true,
+                    "oz_www_prevent_unnecessary_seek_stream_anchor_reset": true,
+                    "oz_www_stream_types_eligible_for_partial_playback": "",
+                    "oz_www_partial_playback_buffer_overflow": 0.75,
+                    "oz_www_live_use_inline_manifest_after_request_manifest": false,
+                    "oz_www_live_gracefully_handle_410": true,
+                    "oz_www_segment_end_410_response": true,
+                    "oz_www_segment_end_410_response_loop_end": true,
+                    "oz_www_steadystate_minbuffer_sec": 0,
+                    "oz_www_steadystate_minbuffer_buckets": 0,
+                    "oz_www_steadystate_minbuffer_buckets_sec": 1,
+                    "oz_www_pixels_above_viewport_to_observe": 0,
+                    "oz_www_delay_stream_end_for_sourceended": true,
+                    "www_videos_shaka_use_xbox_buffered_fudge_factor": 0.05,
+                    "oz_www_media_source_is_available_in_ended_state": true,
+                    "oz_www_unset_override_oz_request_implementation_on_hive_error": false,
+                    "oz_www_live_gracefully_handle_502": true,
+                    "oz_www_systemic_risk_abr_apply_representation_restrictions": true,
+                    "oz_www_dynamic_mpd_initial_playback_position_offset_modifier": 4,
+                    "oz_www_player_formats_for_low_latency": "[]",
+                    "oz_www_loop_body_handle_error_interval_ms": 1,
+                    "oz_www_load_sequence_max_delay_ms": 0,
+                    "oz_www_get_fetch_body_text_when_response_not_ok": true,
+                    "oz_www_load_sequence_only_prioritize_first_count": 0,
+                    "oz_www_stream_interrupted_fuzzy_equals": false,
+                    "oz_www_sbm_skip_abort_on_media_error": true,
+                    "oz_www_sbm_abort_on_append_new_readable_stream": false,
+                    "oz_www_prevent_unnecessary_quickstarter_instance": true,
+                    "oz_www_stricter_mpd_parser_invariants": false,
+                    "oz_www_accept_external_buffering_detector": true,
+                    "oz_www_treat_inline_mpd_xml_empty_string_as_null": false,
+                    "oz_www_live_gracefully_handle_429": true,
+                    "oz_www_use_systemic_risk_abr": true,
+                    "oz_www_use_sidnee_abr": false,
+                    "oz_www_systemic_risk_abr_risk_factor": 1.75,
+                    "oz_www_time_to_first_byte_ignore_above_threshold_ms": 0,
+                    "oz_www_bandwidth_ttfb_samples_to_save": 5,
+                    "oz_www_blue_video_player_pass_inline_mpd_xml_empty_string_as_undefined": false,
+                    "oz_www_blue_video_player_force_xhr": false,
+                    "oz_www_set_global_config": false,
+                    "oz_www_systemic_risk_abr_low_mos_risk_factor": 1.3,
+                    "oz_www_systemic_risk_abr_min_watchable_mos": 30,
+                    "oz_www_systemic_risk_abr_low_mos_resolution": 0,
+                    "oz_www_prevent_multiple_successive_representation_switch": true,
+                    "oz_www_sidx_parser_memory_optimization": true,
+                    "oz_www_buffer_when_waiting_in_partial_buffer": true,
+                    "oz_www_stream_interrupt_in_play_buffer_overflow_target": 1,
+                    "oz_www_stream_interrupt_buffer_target_timeout_ms": 10000,
+                    "oz_www_recent_buffer_in_play_buffer_overflow_target": 3,
+                    "oz_www_recent_buffer_timeout_ms": 10000,
+                    "oz_www_use_ending_duration_for_gop_multiplier": true,
+                    "oz_www_live_trace_parse_emsg": true,
+                    "oz_www_catchup_use_timeline_range_end_time_as_end": false,
+                    "oz_www_perf_log_representation_id_more": true,
+                    "oz_www_systemic_risk_use_fetch_range_duration": false,
+                    "oz_www_use_simple_moving_average_estimator": false,
+                    "oz_www_http_no_cache": false,
+                    "oz_www_use_buffering_detector_for_playhead_interruption": true,
+                    "oz_www_enable_immediate_down_switch": false,
+                    "oz_www_handle_media_source_manager_errors": true,
+                    "oz_www_handle_invalid_webm_duration": false,
+                    "oz_www_parse_initialization_binary": true,
+                    "oz_www_systemic_risk_abr_high_estimate_confidence": 52,
+                    "oz_www_data_reader_concat_once": true,
+                    "oz_www_pump_concat_once": true,
+                    "oz_www_sbm_append_readable_stream_concat_once": true,
+                    "oz_www_log_appended_segment_info": false,
+                    "oz_www_log_media_element_error_source_buffer_updateend_error": true,
+                    "oz_www_log_extra_events": true,
+                    "oz_www_overwrite_video_current_time_property": true,
+                    "oz_www_clear_buffer_on_seek_into_unbuffered_range": true,
+                    "oz_www_numerical_range_utils_is_after_range_exclusive": true,
+                    "oz_www_server_side_abr_send_client_estimates": false,
+                    "oz_www_server_side_abr_use_server_estimates": false,
+                    "oz_www_live_gracefully_handle_504": true,
+                    "oz_www_debug_live_replay": false,
+                    "oz_www_append_retry_quota_exceeded_error": true,
+                    "oz_www_buffer_target_constraint_minimum_sec": 2,
+                    "oz_www_buffer_target_constraint_append_succeeded_reward": 0.2,
+                    "oz_www_always_use_current_time_in_playback_state": true,
+                    "oz_www_buffer_target_constraint_quota_exceeded_penalty": 0.3,
+                    "oz_www_retry_null_error_code_in_stream": false,
+                    "oz_www_emit_destroyed_after_media_keys_clear": false,
+                    "oz_www_do_not_end_stream": false,
+                    "oz_www_do_not_flush_data_queue_after_destroy": false,
+                    "oz_www_do_not_update_duration_vod": false,
+                    "oz_www_no_representation_error_detailed_message": true,
+                    "oz_www_mpd_updater_network_request_timeout_ms": 20000,
+                    "oz_www_restart_media_streams_on_stream_resumed": false,
+                    "oz_www_media_stream_tracker_cancel_on_seek": false,
+                    "oz_www_media_stream_fix_double_segments_compute": false,
+                    "oz_www_fix_initial_segment_non_zero_start_time": true,
+                    "oz_www_get_mpd_least_last_time_range": true,
+                    "oz_www_respect_playback_restrictions_in_abr_fallback": true,
+                    "oz_www_null_segment_for_no_buffer_target": true,
+                    "oz_www_systemic_risk_abr_initial_risk_factor": 1,
+                    "oz_www_systemic_risk_abr_document_hidden_risk_factor": 0,
+                    "oz_www_use_bandwidth_estimate_from_headers_in_abr": false,
+                    "oz_www_use_ttfb_from_headers": false,
+                    "oz_www_skip_playhead_adjustment_before_initial_playback_position": false,
+                    "oz_www_clear_buffer_on_seek_epsilon_s": 0,
+                    "oz_www_handle_buffered_timerange_update_on_ratechange": false,
+                    "oz_www_stub_safari_source_buffer_abort": false,
+                    "oz_www_clear_buffer_on_seek_nudge_s": 0,
+                    "oz_www_streaming_task_reject_current_stream_deferred": true,
+                    "oz_www_min_buffer_behind_playhead": 10,
+                    "oz_www_check_mediasource_readystate_before_end_of_stream": true,
+                    "oz_www_retry_video_element_error": true,
+                    "oz_www_clamp_seek_to_first_buffer_range_epsilon": 0.75,
+                    "oz_www_ignore_restrictions_when_all_representations_restricted": false,
+                    "oz_www_hive_maximum_trimming_seconds": 0,
+                    "oz_www_block_representation_status_codes_json": "[500, 503]",
+                    "oz_www_block_representation_status_codes_temporarily_json": "{}",
+                    "oz_www_revoke_object_url_on_detach": false,
+                    "oz_www_abort_clear_video_node_on_detach": false,
+                    "oz_www_proceed_on_representation_change_in_init_append_fail": true,
+                    "oz_www_should_check_that_source_buffer_attached": false,
+                    "oz_www_exclude_large_representations_after_restrictions": true,
+                    "oz_www_stop_loop_driver_immediately_on_cleanup": true,
+                    "oz_www_playhead_manager_handle_time_range_update_on_waiting": false,
+                    "oz_www_enable_error_recovery_attempt_logging": true,
+                    "oz_www_systemic_risk_abr_prefetch_initial_risk_factor": 3,
+                    "oz_www_prefetch_resolution_threshold": 1000,
+                    "oz_www_throw_no_license_error": true,
+                    "oz_www_vtt_caption_representation": true,
+                    "oz_www_live_video_send_transaction_id_in_requests": false,
+                    "oz_www_log_exposure_on_oz_initialization": false,
+                    "oz_www_systemic_risk_abr_prefetch_low_mos_resolution": 260,
+                    "oz_www_allow_subsequent_prefetch": true,
+                    "oz_www_comet_video_player_live_vtt_captions": false,
+                    "oz_www_emit_caption_parse_errors_as_warning": true,
+                    "oz_www_prefetch_retention_duration_ms": 0,
+                    "oz_www_clear_prefetch_on_unload": false,
+                    "oz_www_emit_captions_changed_event": true,
+                    "oz_www_use_vtt_captions_visible_buffer_strategy": false,
+                    "oz_www_disable_end_of_stream_in_caption_stream": true,
+                    "oz_www_append_once_per_stream_in_caption_stream": true,
+                    "oz_www_append_once_per_stream_in_application_stream": false,
+                    "oz_www_enable_era_logging_for_application_stream": false,
+                    "oz_www_emit_stream_gone_on_end_stream_before_start": true,
+                    "oz_www_sidx_segment_retry_attempts": 9999,
+                    "oz_www_sidx_segment_retry_interval_ms": 100,
+                    "oz_www_clear_buffer_around_playhead_boundary_ms": 5000,
+                    "oz_www_fix_manifest_fetch_mixed_promise_catch": true,
+                    "oz_www_fix_update_duration_check": false,
+                    "oz_www_never_decrease_mediasource_duration": false,
+                    "oz_www_normalize_mpd_fetch_errors": true,
+                    "oz_www_no_retry_on_empty_string_error_code": false,
+                    "oz_www_use_src_object_for_media_source": false,
+                    "oz_www_mpd_parse_all_adaptation_sets": true,
+                    "oz_www_mpd_ensure_playable_representations": false,
+                    "oz_www_ull_use_broadcast_sensitivity_type": true,
+                    "oz_www_ull_fallback_stall_count": 2,
+                    "oz_www_live_video_chunk_duration": 0,
+                    "oz_www_av1_check_hardware_support": false,
+                    "oz_www_ultra_low_latency_bandwidth_threshold": 10000000,
+                    "oz_www_bandwidth_estimate_header_key": "",
+                    "oz_www_bandwidth_estimate_key": "",
+                    "oz_www_fix_ull_fallback_stall_count": false,
+                    "oz_www_set_latency_context_immediately": true,
+                    "oz_www_fall_back_to_low_latency_in_ull": false,
+                    "oz_www_bandwidth_header_expire_threshold": 0,
+                    "oz_www_fix_live_rewind_user_selected_playback_speed": true,
+                    "oz_www_is_csvqm_enabled": true,
+                    "oz_www_msm_refactor_wait_for_sourceopen": false
+                  }
+                },
+                5261
+              ]
+            ],
+            "require": [
+              [
+                "VideoPlayerScrubberDefaultPreview_video$normalization.graphql"
+              ],
+              [
+                "VideoPlayerScrubberDefaultPreview.react"
+              ],
+              [
+                "useVideoPlayerShakaPerformanceLoggerRelayImpl_init$normalization.graphql"
+              ],
+              [
+                "VideoPlayerShakaPerformanceLogger"
+              ],
+              [
+                "useVideoPlayerShakaPerformanceLoggerBuilder_init$normalization.graphql"
+              ],
+              [
+                "VideoPlayerShakaPerformanceLoggerBuilder"
+              ],
+              [
+                "emptyFunction",
+                "thatReturns",
+                [
+                  "RequireDeferredReference"
+                ],
+                [
+                  [
+                    {
+                      "__dr": "VideoPlayerScrubberDefaultPreview_video$normalization.graphql"
+                    },
+                    {
+                      "__dr": "VideoPlayerScrubberDefaultPreview.react"
+                    },
+                    {
+                      "__dr": "useVideoPlayerShakaPerformanceLoggerRelayImpl_init$normalization.graphql"
+                    },
+                    {
+                      "__dr": "VideoPlayerShakaPerformanceLogger"
+                    },
+                    {
+                      "__dr": "useVideoPlayerShakaPerformanceLoggerBuilder_init$normalization.graphql"
+                    },
+                    {
+                      "__dr": "VideoPlayerShakaPerformanceLoggerBuilder"
+                    }
+                  ]
+                ]
+              ],
+              [
+                "RelayPrefetchedStreamCache",
+                "next",
+                [],
+                [
+                  "adp_CometTahoeRootQueryRelayPreloader_66f9abe628e865028876204",
+                  {
+                    "__bbox": {
+                      "complete": false,
+                      "result": {
+                        "data": {
+                          "video": {
+                            "creation_story": {
+                              "encrypted_tracking": "AZWB_QLIeESGoWGv69umCNXD0I5WE41-Hd1u27tCYwW5FvFR5zheShNIvEHnQ_fQ3S31Myi0g2rKIjj4kizmBLtkM_yjv4qHhYR0M6A8RVVeCk0kEwYmYBvvNcRVVWVbp6hfR-pj4Hm_q1NzZaJeGZSEqoe-In2DaY8gLc39j9rwe4FScGnnuytVkavK08MIjnZi-TrIDdFcn4CsHWl9-6MX_b-2Lkd2tu_Mb4_r3o3gkW3RZbgUkGChmtWvbWmTEJ6eJ3UQ6ZFJck-IEBd1gibSd1Du130hOpzaiov_4-asgL-UOMbL4JZyRWZWYujpn2_41YNjypyzldLmy3QLnZKKHDBcBPFaMuDV5LWnZb1OHBLXrVXO1ZM678nRe-keUMMoTW0JbJ5KHV9Ll8qGPT8W79qQOfVxGXzDSRl8d4G93oDLBQx9ecCGnC-ubBxLmIr3J4Jbufx3X3c-RFWvt7ax9C3ZCUpN5tOCfYIlv4ehDMogHf621E18AzU2yDViDm5bkZZOfWRxd7mohgVuuTms0FJIod1x27dWcino0daMO5zUEYAhU4wMnPc83CALNwariZeJQLYeb6xGUCU9e-pjzaYukJQKW7Uv76MbmrQdfb39wHLZqLgnKqc7vpjq4AYZWgETqaSiTZLGYSC2FNev_h7Ms6aTPBy4cNkjuxoyKbwr3veJiTHWVC6NpDN3c8zWHMjexNzDtXNkrA7P0TvR9i-gU9pjbdcUJaWJw1jdHRy9HQETVy3m-GFC3YqSiOF3XIdsVceoZo6ZHrEmO18R2TNzm8-xZ03uIVHH3A9eOTDQMNz1RpEvmjATylv_RKhKAtdPb8sFyWNgdLh-4aT4LBi3H8ufD22aHVSoyXGcii5VcQySWRUm4ZsJ2Gt0ZIcHb_-nZS6VQls2b8BNwibd70v_6TFeUBA8PIbKz4x2XQ",
+                              "viewability_config": [
+                                8,
+                                5
+                              ],
+                              "client_view_config": {
+                                "can_delay_log_impression": false,
+                                "use_banzai_signal_imp": true,
+                                "use_banzai_vital_imp": true
+                              },
+                              "id": "UzpfSTEwMDAwNDMwNDg1OTMwNTpWSzozODY1NzM0MTkzNzQ5MTEz"
+                            },
+                            "cix_screen": null,
+                            "preferred_thumbnail": {
+                              "image": {
+                                "uri": "https:\/\/scontent.fdac27-1.fna.fbcdn.net\/v\/t15.5256-10\/461505990_1970652710120580_5938725636848673050_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=eovRfwugrJ8Q7kNvgGuXi_u&_nc_ht=scontent.fdac27-1.fna&_nc_gid=ABf52yrG5djHpca66w9nIby&oh=00_AYCVBPnBzuZlPdnrPwXyXvOF7D8QQ2CoVjTIuVeypOKGuw&oe=66FF788A"
+                              },
+                              "id": "1446815715989392",
+                              "image_preview_payload": null
+                            },
+                            "id": "3865734193749113",
+                            "is_clipping_enabled": false,
+                            "live_rewind_enabled": false,
+                            "owner": {
+                              "__typename": "User",
+                              "id": "100004304859305",
+                              "__isVideoOwner": "User",
+                              "has_professional_features_for_watch": false
+                            },
+                            "playable_duration_in_ms": 562000,
+                            "is_huddle": false,
+                            "url": "https:\/\/www.facebook.com\/arman.irfan.007\/videos\/3865734193749113\/?idorvanity=1051471946642403",
+                            "if_viewer_can_use_latency_menu": null,
+                            "if_viewer_can_use_latency_menu_toggle": null,
+                            "captions_url": null,
+                            "video_available_captions_locales": [],
+                            "if_viewer_can_see_community_moderation_tools": null,
+                            "if_viewer_can_use_live_rewind": null,
+                            "if_viewer_can_use_clipping": null,
+                            "if_viewer_can_see_costreaming_tools": null,
+                            "video_player_scrubber_preview_renderer": {
+                              "__typename": "XFBVideoPlayerScrubberDefaultPreviewRenderer",
+                              "video": {
+                                "scrubber_preview_thumbnail_information": {
+                                  "sprite_uris": [],
+                                  "thumbnail_width": 0,
+                                  "thumbnail_height": 0,
+                                  "has_preview_thumbnails": false,
+                                  "num_images_per_row": 0,
+                                  "max_number_of_images_per_sprite": 0,
+                                  "time_interval_between_image": 0
+                                },
+                                "id": "3865734193749113"
+                              },
+                              "__module_operation_VideoPlayerScrubberPreview_video": {
+                                "__dr": "VideoPlayerScrubberDefaultPreview_video$normalization.graphql"
+                              },
+                              "__module_component_VideoPlayerScrubberPreview_video": {
+                                "__dr": "VideoPlayerScrubberDefaultPreview.react"
+                              }
+                            },
+                            "video_player_scrubber_base_content_renderer": null,
+                            "animated_image_caption": null,
+                            "width": 640,
+                            "height": 360,
+                            "broadcaster_origin": null,
+                            "broadcast_id": null,
+                            "broadcast_status": null,
+                            "is_live_streaming": false,
+                            "is_live_trace_enabled": false,
+                            "is_looping": false,
+                            "is_video_broadcast": false,
+                            "is_podcast_video": false,
+                            "loop_count": 0,
+                            "is_spherical": false,
+                            "is_spherical_enabled": true,
+                            "unsupported_browser_message": null,
+                            "pmv_metadata": null,
+                            "latency_sensitive_config": null,
+                            "live_playback_instrumentation_configs": null,
+                            "is_ncsr": false,
+                            "permalink_url": "https:\/\/www.facebook.com\/arman.irfan.007\/videos\/3865734193749113\/?idorvanity=1051471946642403",
+                            "dash_prefetch_experimental": [
+                              "1294641831894736v",
+                              "1297403905011243a"
+                            ],
+                            "video_status_type": "OK",
+                            "can_use_oz": true,
+                            "playlist": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\u003CMPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http:\/\/www.w3.org\/2001\/XMLSchema-instance\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT562S\" FBTagsetUsed=\"basic_gen2\" FBManifestIdentifier=\"FgAYCmJhc2ljX2dlbjIZJqD7gqiJ3swE1ribruz+zQQiGBBhdWRpb19hYWNfbG5fdmJyAA==\">\u003CPeriod id=\"0\" duration=\"PT562S\">\u003CAdaptationSet id=\"0\" contentType=\"video\" frameRate=\"15360\/512\" subsegmentAlignment=\"true\" par=\"16:9\" FBUnifiedUploadResolutionMos=\"360:51.6,480:51.6,720:51.6,1080:51.6\">\u003CSupplementalProperty schemeIdUri=\"urn:mpeg:mpegB:cicp:TransferCharacteristics\" value=\"1\"\/>\u003CRepresentation id=\"1294641831894736v\" bandwidth=\"156700\" codecs=\"avc1.4d001e\" mimeType=\"video\/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_h264-basic-gen2_360p\" FBPlaybackResolutionMos=\"0:100,360:97.6,480:97.6,720:97.6,1080:97.6\" FBPlaybackResolutionMosConfidenceLevel=\"high_derived_from_valid_ssim\" FBPlaybackResolutionCsvqm=\"0:100,360:99.448,480:99.448,720:99.448,1080:99.448\" FBAbrPolicyTags=\"hvq_www_inline\" width=\"640\" height=\"360\" FBDefaultQuality=\"1\" FBQualityClass=\"sd\" FBQualityLabel=\"360p\">\u003CBaseURL>https:\/\/scontent.fdac27-2.fna.fbcdn.net\/v\/t39.25447-2\/461595679_497270333188360_6421158007102504754_n.mp4?_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=9a5d50&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfaDI2NC1iYXNpYy1nZW4yXzM2MHAiLCJ2aWRlb19pZCI6Mzg2NTczNDE5Mzc0OTExM30\u00253D&amp;_nc_ohc=YhWp968RmxsQ7kNvgHnGD-4&amp;_nc_ht=scontent.fdac27-2.fna&amp;_nc_gid=ABf52yrG5djHpca66w9nIby&amp;oh=00_AYCma6lxBdb9_C1rdF2AvLhTKgbuVIRLm-A6EgFxjQ6YMw&amp;oe=66FF7C70\u003C\/BaseURL>\u003CSegmentBase indexRange=\"887-2274\" timescale=\"15360\" FBFirstSegmentRange=\"2275-64718\">\u003CInitialization range=\"0-886\"\/>\u003C\/SegmentBase>\u003C\/Representation>\u003C\/AdaptationSet>\u003CAdaptationSet id=\"1\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\">\u003CRepresentation id=\"1297403905011243a\" bandwidth=\"53822\" codecs=\"mp4a.40.5\" mimeType=\"audio\/mp4\" FBAvgBitrate=\"53822\" audioSamplingRate=\"44100\" FBEncodingTag=\"dash_ln_heaac_vbr3_audio\" FBAbrPolicyTags=\"\" FBDefaultQuality=\"1\">\u003CAudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"\/>\u003CBaseURL>https:\/\/scontent.fdac27-1.fna.fbcdn.net\/v\/t58.16807-2\/460700758_522978480690376_3384367334007867621_n.mp4?_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=9a5d50&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjozODY1NzM0MTkzNzQ5MTEzfQ\u00253D\u00253D&amp;_nc_ohc=i1w9LePIzEMQ7kNvgE6U6cO&amp;_nc_ht=scontent.fdac27-1.fna&amp;_nc_gid=ABf52yrG5djHpca66w9nIby&amp;oh=00_AYD8_JNUqFgtYTN-5fB2EiyqsjPiygnD3cRM9UrNnfz7Fw&amp;oe=66FF9267\u003C\/BaseURL>\u003CSegmentBase indexRange=\"824-4227\" timescale=\"44100\" FBFirstSegmentRange=\"4228-19106\">\u003CInitialization range=\"0-823\"\/>\u003C\/SegmentBase>\u003C\/Representation>\u003C\/AdaptationSet>\u003C\/Period>\u003C\/MPD>\n",
+                            "dash_manifest_url": "https:\/\/www.facebook.com\/video\/playback\/dash_mpd_debug.mpd?v=3865734193749113&dummy=.mpd",
+                            "min_quality_preference": "HD",
+                            "audio_user_preferred_language": "en",
+                            "browser_native_sd_url": "https:\/\/scontent.fdac27-1.fna.fbcdn.net\/v\/t42.1790-2\/461439131_1559673901638419_4744880506208532336_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJybHIiOjMwMCwicmxhIjoxNjU0LCJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjozODY1NzM0MTkzNzQ5MTEzfQ\u00253D\u00253D&_nc_ohc=QetGhDZggOMQ7kNvgFQKnZp&rl=300&vabr=157&_nc_ht=scontent.fdac27-1.fna&_nc_gid=ABf52yrG5djHpca66w9nIby&oh=00_AYCbP8fgK4ibQ0Y1pydm1JnDVmM504APh8FrTx_yV4BnZg&oe=66FF7D91",
+                            "browser_native_hd_url": null,
+                            "spherical_video_fallback_urls": null,
+                            "comet_video_player_nextgendash_availability": "UNAVAILABLE_NEXTGENDASH_GK",
+                            "is_gaming_video": false,
+                            "is_latency_menu_enabled": false,
+                            "fbls_tier": null,
+                            "is_latency_sensitive_broadcast": false,
+                            "comet_video_player_static_config": "{}",
+                            "comet_video_player_context_sensitive_config": "{}",
+                            "video_player_shaka_performance_logger_init": {
+                              "__typename": "VideoPlayerShakaPerformanceLoggerInit",
+                              "__module_operation_useVideoPlayerShakaPerformanceLoggerRelayImpl_video": {
+                                "__dr": "useVideoPlayerShakaPerformanceLoggerRelayImpl_init$normalization.graphql"
+                              },
+                              "__module_component_useVideoPlayerShakaPerformanceLoggerRelayImpl_video": {
+                                "__dr": "VideoPlayerShakaPerformanceLogger"
+                              }
+                            },
+                            "video_player_shaka_performance_logger_should_sample": false,
+                            "video_player_shaka_performance_logger_init2": {
+                              "__typename": "VideoPlayerShakaPerformanceLoggerInit",
+                              "__module_operation_useVideoPlayerShakaPerformanceLoggerBuilder_video": {
+                                "__dr": "useVideoPlayerShakaPerformanceLoggerBuilder_init$normalization.graphql"
+                              },
+                              "__module_component_useVideoPlayerShakaPerformanceLoggerBuilder_video": {
+                                "__dr": "VideoPlayerShakaPerformanceLoggerBuilder"
+                              },
+                              "per_session_sampling_rate": null
+                            },
+                            "autoplay_gating_result": "user_settings",
+                            "viewer_autoplay_setting": "off",
+                            "can_autoplay": false,
+                            "drm_info": "{\"video_license_uri_map\":{},\"graph_api_video_license_uri\":null,\"fairplay_cert\":null,\"widevine_cert\":\"CsECCAMSEBcFuRfMEgSGiwYzOi93KowYgrSCkgUijgIwggEKAoIBAQCZ7Vs7Mn2rXiTvw7YqlbWYUgrVvMs3UD4GRbgU2Ha430BRBEGtjOOtsRu4jE5yWl5KngeVKR1YWEAjp+GvDjipEnk5MAhhC28VjIeMfiG\\\/+\\\/7qd+EBnh5XgeikX0YmPRTmDoBYqGB63OBPrIRXsTeo1nzN6zNwXZg6IftO7L1KEMpHSQykfqpdQ4IY3brxyt4zkvE9b\\\/tkQv0x4b9AsMYE0cS6TJUgpL+X7r1gkpr87vVbuvVk4tDnbNfFXHOggrmWEguDWe3OJHBwgmgNb2fG2CxKxfMTRJCnTuw3r0svAQxZ6ChD4lgvC2ufXbD8Xm7fZPvTCLRxG88SUAGcn1oJAgMBAAE6FGxpY2Vuc2Uud2lkZXZpbmUuY29tEoADrjRzFLWoNSl\\\/JxOI+3u4y1J30kmCPN3R2jC5MzlRHrPMveoEuUS5J8EhNG79verJ1BORfm7BdqEEOEYKUDvBlSubpOTOD8S\\\/wgqYCKqvS\\\/zRnB3PzfV0zKwo0bQQQWz53ogEMBy9szTK\\\/NDUCXhCOmQuVGE98K\\\/PlspKkknYVeQrOnA+8XZ\\\/apvTbWv4K+drvwy6T95Z0qvMdv62Qke4XEMfvKUiZrYZ\\\/DaXlUP8qcu9u\\\/r6DhpV51Wjx7zmVflkb1gquc9wqgi5efhn9joLK3\\\/bNixbxOzVVdhbyqnFk8ODyFfUnaq3fkC3hR3f0kmYgI41sljnXXjqwMoW9wRzBMINk+3k6P8cbxfmJD4\\\/Paj8FwmHDsRfuoI6Jj8M76H3CTsZCZKDJjM3BQQ6Kb2m+bQ0LMjfVDyxoRgvfF\\\/\\\/M\\\/EEkPrKWyU2C3YBXpxaBquO4C8A0ujVmGEEqsxN1HX9lu6c5OMm8huDxwWFd7OHMs3avGpr7RP7DUnTikXrh6X0\"}",
+                            "p2p_settings": null,
+                            "audio_settings": {
+                              "video_volume_setting": "DEFAULT",
+                              "id": "1750710901749055"
+                            },
+                            "captions_settings": {
+                              "always_show_captions": false,
+                              "captions_background_color": null,
+                              "captions_background_opacity": null,
+                              "captions_text_color": null,
+                              "captions_text_size": null,
+                              "id": "882186988601455"
+                            },
+                            "broadcast_low_latency_config": null,
+                            "audio_availability": "AVAILABLE",
+                            "muted_segments": [],
+                            "spherical_video_renderer": null,
+                            "video_imf_data": null,
+                            "breakingStatus": false,
+                            "videoId": "3865734193749113",
+                            "isPremiere": false,
+                            "liveViewerCount": 0,
+                            "rehearsalInfo": null,
+                            "is_live_audio_room_v2_broadcast": false,
+                            "publish_time": 1727566122,
+                            "live_speaker_count_indicator": null,
+                            "comet_video_player_audio_background_renderer": null,
+                            "comet_video_player_audio_overlay_renderer": null,
+                            "recipient_group": {
+                              "id": "1051471946642403"
+                            }
+                          }
+                        },
+                        "extensions": {
+                          "all_video_dash_prefetch_representations": [
+                            {
+                              "initial_representation_ids": [],
+                              "representations": [
+                                {
+                                  "representation_id": "1294641831894736v",
+                                  "mime_type": "video\/mp4",
+                                  "codecs": "avc1.4d001e",
+                                  "base_url": "https:\/\/scontent.fdac27-2.fna.fbcdn.net\/v\/t39.25447-2\/461595679_497270333188360_6421158007102504754_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=9a5d50&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfaDI2NC1iYXNpYy1nZW4yXzM2MHAiLCJ2aWRlb19pZCI6Mzg2NTczNDE5Mzc0OTExM30\u00253D&_nc_ohc=YhWp968RmxsQ7kNvgHnGD-4&_nc_ht=scontent.fdac27-2.fna&_nc_gid=ABf52yrG5djHpca66w9nIby&oh=00_AYCma6lxBdb9_C1rdF2AvLhTKgbuVIRLm-A6EgFxjQ6YMw&oe=66FF7C70",
+                                  "bandwidth": 156700,
+                                  "height": 360,
+                                  "width": 640,
+                                  "playback_resolution_mos": "0:100,360:97.6,480:97.6,720:97.6,1080:97.6",
+                                  "playback_resolution_csvqm": "0:100,360:99.448,480:99.448,720:99.448,1080:99.448",
+                                  "segments": [
+                                    {
+                                      "start": 0,
+                                      "end": 886
+                                    },
+                                    {
+                                      "start": 887,
+                                      "end": 2274
+                                    },
+                                    {
+                                      "start": 2275,
+                                      "end": 64718
+                                    }
+                                  ]
+                                },
+                                {
+                                  "representation_id": "1297403905011243a",
+                                  "mime_type": "audio\/mp4",
+                                  "codecs": "mp4a.40.5",
+                                  "base_url": "https:\/\/scontent.fdac27-1.fna.fbcdn.net\/v\/t58.16807-2\/460700758_522978480690376_3384367334007867621_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=9a5d50&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjozODY1NzM0MTkzNzQ5MTEzfQ\u00253D\u00253D&_nc_ohc=i1w9LePIzEMQ7kNvgE6U6cO&_nc_ht=scontent.fdac27-1.fna&_nc_gid=ABf52yrG5djHpca66w9nIby&oh=00_AYD8_JNUqFgtYTN-5fB2EiyqsjPiygnD3cRM9UrNnfz7Fw&oe=66FF9267",
+                                  "bandwidth": 53822,
+                                  "height": 0,
+                                  "width": 0,
+                                  "playback_resolution_mos": "",
+                                  "playback_resolution_csvqm": "",
+                                  "segments": [
+                                    {
+                                      "start": 0,
+                                      "end": 823
+                                    },
+                                    {
+                                      "start": 824,
+                                      "end": 4227
+                                    },
+                                    {
+                                      "start": 4228,
+                                      "end": 19106
+                                    }
+                                  ]
+                                }
+                              ],
+                              "video_id": 3865734193749113
+                            }
+                          ],
+                          "is_final": false
+                        }
+                      },
+                      "sequence_number": 0
+                    }
+                  }
+                ]
+              ],
+              [
+                "RequireDeferredReference",
+                "unblock",
+                [],
+                [
+                  [
+                    "VideoPlayerScrubberDefaultPreview_video$normalization.graphql",
+                    "VideoPlayerScrubberDefaultPreview.react",
+                    "useVideoPlayerShakaPerformanceLoggerRelayImpl_init$normalization.graphql",
+                    "VideoPlayerShakaPerformanceLogger",
+                    "useVideoPlayerShakaPerformanceLoggerBuilder_init$normalization.graphql",
+                    "VideoPlayerShakaPerformanceLoggerBuilder"
+                  ],
+                  "sd"
+                ]
+              ],
+              [
+                "RequireDeferredReference",
+                "unblock",
+                [],
+                [
+                  [
+                    "VideoPlayerScrubberDefaultPreview_video$normalization.graphql",
+                    "VideoPlayerScrubberDefaultPreview.react",
+                    "useVideoPlayerShakaPerformanceLoggerRelayImpl_init$normalization.graphql",
+                    "VideoPlayerShakaPerformanceLogger",
+                    "useVideoPlayerShakaPerformanceLoggerBuilder_init$normalization.graphql",
+                    "VideoPlayerShakaPerformanceLoggerBuilder"
+                  ],
+                  "css"
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    ]
+  ]
+}

@@ -95,3 +95,18 @@ class DownloadFacebookVideo(APIView):
             return Response({'success': 'Video downloaded successfully'})
         except Exception as e:
             return Response({'error': str(e)}, status=500)
+
+
+class DownloadPrivateFacebookVideos(APIView):
+    def scrape_url_from_page_source(self, html_source):
+        import re
+
+        # Use a regular expression to find all base_url entries
+        matches = re.findall(r'"base_url"\s*:\s*"([^"]+)"', html_source)
+
+        # Remove backslashes and create a list of cleaned URLs
+        cleaned_urls = [url.replace('\\', '') for url in matches]
+
+        # Output the list of base URLs
+        print("Base URLs found:", cleaned_urls)
+        return cleaned_urls
